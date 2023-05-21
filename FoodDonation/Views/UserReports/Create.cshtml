@@ -1,0 +1,42 @@
+﻿@model FoodDonation.Models.UserReport
+
+@{
+    ViewData["Title"] = "Report";
+}
+
+<section class="container">
+    <h1 class="text-center">Report a <small>Problem</small></h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <p>*If you want to report a user, provide the link of the user profile in the description</p>
+                <div asp-validation-summary="ModelOnly" class="text-danger">
+                    
+                </div>
+                @if (ViewBag.success == true)
+                {
+            <div>
+                <p class="text-success text-center">Reported Succefully</p>
+            </div>
+                }
+            <div class="form-group">
+                
+                <label asp-for="catId">Select Category</label>
+                    <select asp-for="catId" class="form-control" asp-items="ViewBag.cate"></select>
+                    <span asp-validation-for="UserId" class="text-danger"></span>
+                <span asp-validation-for="catId" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Report" class="btn btn-primary btn-block" />
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

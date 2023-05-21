@@ -1,0 +1,55 @@
+﻿@model FoodDonation.Models.Sponsors
+
+@{
+    ViewData["Title"] = "Sponsors";
+}
+
+<section class="container">
+    <h1 class="text-center">Edit <small>Sponsors</small></h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <form asp-action="EditSponsor" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Amount" class="control-label">Amount(BDT.)</label>
+                    <input asp-for="Amount" class="form-control" />
+                    <span asp-validation-for="Amount" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="startDate" class="control-label">Start Date:</label>
+                    <input asp-for="startDate" class="form-control" />
+                    <span asp-validation-for="startDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ExpireDate" class="control-label">Expire Date:</label>
+                    <input asp-for="ExpireDate" class="form-control" />
+                    <span asp-validation-for="ExpireDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="form-group">
+                        <label asp-for="ImageFile" class="control-label"></label>
+                        <input asp-for="ImageFile" accept="image/*" />
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary btn-block" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a asp-action="ListofSponsors">Back to List</a>
+    </div>
+
+
+</section>

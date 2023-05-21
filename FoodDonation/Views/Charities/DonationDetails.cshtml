@@ -1,0 +1,44 @@
+﻿@model FoodDonation.Models.Donation
+
+@{
+    ViewData["Title"] = "Donations";
+}
+
+<div class="container pb50">
+    <h1 class="text-center">Donation <small>Details</small></h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <article>
+                <div class="post-content">
+                    <h3>
+                       @Model.postTitle
+                    </h3>
+                    <hr />
+                    <p> <strong> Quantity:</strong> @Model.pQuantity </p>
+                    <p><Strong> Pickup Date:</Strong> @Model.Date</p>
+                    <p>
+                        <strong>Description:</strong> @Model.pDescription
+                    </p>
+                </div>
+            </article>
+            <div>
+                @if (Model.Isrequest == true)
+                {
+                    <a asp-action="PostDetails" asp-route-id="@Model.PostId" asp-controller="Charities" class="btn btn-primary">View Post</a>
+                }
+                else if (Model.Isrequest == false)
+                { <a asp-action="PostDetails" asp-route-id="@Model.PostId" asp-controller="Donors" class="btn btn-primary">View Post</a>
+                }
+            </div>
+            <hr />
+            <div>
+                <p><strong>Donor:</strong> @Model.DonorName </p>
+                <p><strong>Donated To: </strong>@Model.CharityName </p>
+                <p><strong>Donation Date: </strong>@Html.DisplayFor(model => model.Date) </p>
+            </div>
+            <a asp-action="Donations">Back to List</a>
+        </div>
+    </div>
+</div>
+

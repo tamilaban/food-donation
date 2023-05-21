@@ -1,0 +1,257 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FoodDonation
+build_property.RootNamespace = FoodDonation
+build_property.ProjectDir = C:\Users\tamil\Downloads\FoodDonationWebApp-master\FoodDonationWebApp-master\FoodDonation\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tamil\Downloads\FoodDonationWebApp-master\FoodDonationWebApp-master\FoodDonation
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Admin/CreateSponsor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlU3BvbnNvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Admin/DeleteSponsor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlU3BvbnNvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Admin/EditSponsor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFNwb25zb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Admin/ListofSponsors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdG9mU3BvbnNvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Admin/Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTm90aWZpY2F0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Admin/SponsorDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3BvbnNvckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXENyZWF0ZVBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/DonationDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXERvbmF0aW9uRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/Donations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXERvbmF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/MyPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXE15UG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/NotificationDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXE5vdGlmaWNhdGlvbkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXE5vdGlmaWNhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/PostDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXFBvc3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Charities/RequestForDonation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcml0aWVzXFJlcXVlc3RGb3JEb25hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXENyZWF0ZVBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/DonationDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXERvbmF0aW9uRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/Donations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXERvbmF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/MyPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXE15UG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/NotificationDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXE5vdGlmaWNhdGlvbkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXE5vdGlmaWNhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/PostDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXFBvc3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Donors/RequestToDonate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXFJlcXVlc3RUb0RvbmF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Home/Feed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Home/Leaderboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZWFkZXJib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Profile/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/ReportCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0Q2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/ReportCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0Q2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/ReportCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0Q2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/ReportCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0Q2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Roles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/UserReports/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlcG9ydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/UserReports/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlcG9ydHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/UserReports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlcG9ydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tamil/Downloads/FoodDonationWebApp-master/FoodDonationWebApp-master/FoodDonation/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<FoodDonation.Models.UserReport>
+
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<section class="container">
+    <h1 class="text-center">User Reports</h1>
+    <p>
+        <a asp-action="Index" asp-controller="ReportCategories" class="btn btn-primary">Report Categories</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    User Name
+                </th>
+                <th>
+                    Category
+                </th>
+                <th>
+                   Description
+                </th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @foreach (var cat in ViewBag.Category)
+                        {
+                            if (item.catId == cat.Id)
+                            {
+                        <p>@cat.Category</p>
+                            }
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Action</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

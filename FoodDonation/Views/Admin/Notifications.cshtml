@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FoodDonation.Models.UserReport>
+
+@{
+    ViewData["Title"] = "Notifications";
+}
+
+<section class="container">
+
+    <h1 class="text-center">Notification</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                </th>
+                <th>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <strong>@item.UserName</strong> has reported a problem
+                    </td>
+                    <td>
+                        @item.reportDate
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-controller="UserReports" asp-route-id="@item.Id">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</section>

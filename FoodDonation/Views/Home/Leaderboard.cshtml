@@ -1,0 +1,38 @@
+﻿@model IEnumerable<FoodDonation.Models.LeaderBoard>
+
+@{
+    ViewData["Title"] = "Leaderboard";
+}
+
+<section class="container">
+    <h1 class="text-center">Donation <small>Leaders</small></h1>
+
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <p>Donor</p>
+                </th>
+                <th>
+                    <p>Number of Donation</p>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.DonorId
+                    </td>
+                    <td>
+                        @item.NumberofDonations
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</section>

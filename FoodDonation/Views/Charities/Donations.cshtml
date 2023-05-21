@@ -1,0 +1,47 @@
+﻿@model IEnumerable<FoodDonation.Models.Donation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container pb50">
+    <h1 class="text-center">My <small>Donations</small></h1>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Title:
+                </th>
+                <th>
+                    Donor:
+                </th>
+                <th>
+                    Donated on:
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.postTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DonorName)
+                    </td>
+                    <td>
+                        <strong> </strong>@Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        <a asp-action="DonationDetails" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

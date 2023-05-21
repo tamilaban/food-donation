@@ -1,0 +1,61 @@
+﻿@model FoodDonation.Models.Post
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container pb50">
+    <h1 class="text-center">Post <small>Details</small></h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <article>
+                <img src="@("~/image/"+Model.Image)" asp-append-version="true" width="200" height="100" alt="" class="img-fluid mb30" />
+                <div class="post-content">
+                    <h3>
+                        @Html.DisplayFor(model => model.Title)
+                    </h3>
+                    <ul class="post-meta list-inline">
+                        <li class="list-inline-item">
+                            <i class="fa fa-user-circle-o"></i> <a href="#"> @Html.DisplayFor(model => model.User.Email)</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa fa-calendar-o"></i> <a href="#"> @Html.DisplayFor(model => model.PostCreatedDate)</a>
+                        </li>
+                    </ul>
+                    <hr />
+                    <p> <strong> Quantity:</strong> @Html.DisplayFor(model => model.Quantity) </p>
+                    <p><Strong> Pickup Date:</Strong> @Html.DisplayFor(model => model.Date) </p>
+                    <p> <strong>Pickup Address:</strong> @Html.DisplayFor(model => model.Address) </p>
+                    <hr />
+                    <p><strong>Description:</strong> @Html.DisplayFor(model => model.Description)</p>
+                </div>
+            </article>
+            <div>
+                @if (SignInManager.IsSignedIn(User) && User.IsInRole("Donor"))
+                {
+                    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+                    <a asp-action="MyPosts">Back to List</a>
+                }
+                else if (SignInManager.IsSignedIn(User) && User.IsInRole("Charity"))
+                {
+                    if (ViewBag.status == true)
+                    {
+                        <p class="btn btn-success">Accepted</p>
+                    }
+                    else if (ViewBag.status == false)
+                    {
+                        <p class="btn btn-warning">Requested</p>
+
+                    }
+                    else
+                    {
+                        <a asp-action="RequestForDonation" asp-controller="Charities" asp-route-id="@Model.Id" class="btn btn-primary">Request</a>
+                    }
+                }
+            </div>
+
+        </div>
+    </div>
+</div>

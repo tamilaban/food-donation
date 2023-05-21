@@ -1,0 +1,62 @@
+﻿@model IEnumerable<FoodDonation.Models.Sponsors>
+
+@{
+    ViewData["Title"] = "Sponsors";
+}
+
+<section class="container">
+    <h1 class="text-center">List of <small>Sponsors</small></h1>
+      <p>
+        <a asp-action="CreateSponsor" class="btn btn-primary">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Name:
+                </th>
+                <th>
+                   Amount(BDT.):
+                </th>
+                <th>
+                    Start Date:
+                </th>
+                <th>
+                    Expire Date:
+                </th>
+                <th>
+                    Image:
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.startDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ExpireDate)
+                    </td>
+                    <td>
+                        <img src="@("~/image/"+item.Logo)" asp-append-version="true" width="50" height="50" />
+                    </td>
+                    <td>
+                        <a asp-action="EditSponsor" asp-route-id="@item.Id" class="btn btn-warning">Edit</a> |
+                        <a asp-action="SponsorDetails" asp-route-id="@item.Id" class="btn btn-info">Details</a> |
+                        <a asp-action="DeleteSponsor" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</section>

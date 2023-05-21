@@ -1,0 +1,35 @@
+﻿@model FoodDonation.Models.CharityNotification
+
+@{
+    ViewData["Title"] = "Request";
+}
+
+<section class="container">
+    <h1 class="text-center">Request for <small>Donatation</small></h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h5>Send with Short Messages:</h5>
+            <form asp-action="RequestForDonation">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <textarea asp-for="ShortMsg" class="form-control"></textarea>
+                    <span asp-validation-for="ShortMsg" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send" class="btn btn-primary btn-block" />
+                </div>
+            </form>
+            <div>
+                <a asp-action="Feed" asp-controller="Home">Back to Feed</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</section>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

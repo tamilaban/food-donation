@@ -1,0 +1,159 @@
+﻿@model IEnumerable<FoodDonation.Models.Sponsors>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080') ">
+            <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <a class="btn btn-warning" name="btnAddMore" asp-area="Identity" asp-page="/Account/Register" title="Manage">Donate Now</a>
+                <p>Nourishing Hope, One Meal at a Time.</p>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
+            <div class="carousel-caption">
+                <h5>Second slide label</h5>
+                <a class="btn btn-warning" name="btnAddMore" asp-area="Identity" asp-page="/Account/Register" title="Manage">Donate Now</a>
+                <p>Sharing the Blessing of Food.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Page Content -->
+<section id="what-we-do ">
+    <div class="container py-5">
+        <h2 class="section-title mb-2 h1 text-center">Our Mission</h2>
+        <p class="text-center text-muted h5">
+            The objective of the project is to develop an IT system,
+            which connects individual and organisations to donate their surplus foods to charity organisations
+        </p>
+        <div class="row py-2">
+            <div class="col">
+                <div class="card">
+                    <img src="~/assets/img/food.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">No Food Wastage</h3>
+                        <p class="card-text">Instead of wasting food , the application will help in donating them to various charity organizations.
+.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="~/assets/img/donation.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h3 class="card-title ">Become the Medium</h3>
+                        <p class="card-text">
+                            The application has been developed with the objective to ease the burden of impecunious peoples, who
+                            need foods to continue living and for those who want to donate their surplus foods.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="~/assets/img/helping-hand (1).png" class="card-img-top" alt="...">
+                    <div class="card-body  text-center">
+                        <h3 class="card-title">Feed The Hungry</h3>
+                        <p class="card-text">
+                            We are envisioned to make the World Hunger Free and Zero Food Waste through innovative solutions and methodologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section style="background: cyan">
+    <div class="container">
+        <section id="our-stats">
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <h2 class="text-green h1 text-center">Stats</h2>
+                    <p class="text-uppercase font-italic font-weight-light">counter to count up to a target number</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <div class="counter">
+                        <i class="fa fa-code fa-2x text-green"></i>
+                        <h2 class="timer count-title count-number" data-to="100" data-speed="1500">100000</h2>
+                        <p class="count-text ">Donations</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="counter">
+                        <i class="fa fa-coffee fa-2x text-green"></i>
+                        <h2 class="timer count-title count-number" data-to="1700" data-speed="1500">1,700</h2>
+                        <p class="count-text ">Donors</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="counter">
+                        <i class="fa fa-lightbulb-o fa-2x text-green"></i>
+                        <h2 class="timer count-title count-number" data-to="11900" data-speed="1500">900</h2>
+                        <p class="count-text ">Charities</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<section style="min-height: 300px; background:#f2cccc">
+    <div class="container py-4">
+        <h2 class="section-title mb-2 h1 text-center">Our Sponsors</h2>
+        <p class="text-center text-muted h5">Having and managing a correct marketing strategy is crucial in a fast moving market.</p>
+        <div class="row row-cols-5 row-cols-md-5">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="card">
+                        <img src="@("~/image/"+item.Logo)" asp-append-version="true"  alt="" class="card-img-top" />
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>
+<div class="section section-small section-get-started">
+    <div class="parallax filter">
+        <div class="image"
+             style="background-image: url('assets/img/office-1.jpeg')">
+        </div>
+        <div class="container">
+            <div class="title-area">
+                <h2 class="text-white">Do you want to work with us?</h2>
+                <div class="separator line-separator">♦</div>
+                <p class="description"> We are keen on creating a second skin for anyone with a sense of style! We design our clothes having our customers in mind and we never disappoint!</p>
+            </div>
+
+            <div class="button-get-started">
+                <a class="btn btn-danger btn-fill btn-lg" asp-area="" asp-controller="Home" asp-action="Contactus">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</div>

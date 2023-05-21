@@ -1,0 +1,41 @@
+﻿@model FoodDonation.Models.DonorNotification
+
+@{
+    ViewData["Title"] = "Notification";
+}
+<div class="container pb50">
+    <h1 class="text-center">Notificaton</h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <article>
+                <div class="post-content">
+                    <h4>@ViewBag.newTitle</h4>
+                    <p>
+                        <a asp-action="postdetails" asp-route-id="@Model.PostId">View Post</a>
+                    </p>
+                    <strong>Message from</strong>  <a href="#">@Model.CharityName</a>:
+                    <p>@Model.ShortMsg</p>
+                    <hr />
+                </div>
+            </article>
+            <div>
+                @if (Model.IsAccepted == true)
+                {
+                    <p class="btn btn-success">Accepted</p>
+                }
+                else if (Model.IsAccepted == false)
+                {
+                    <p class="btn btn-Danger">Rejected</p>
+                }
+                else
+                {
+                    <a asp-action="Accept" asp-controller="Donors" asp-route-id="@Model.Id" class="btn btn-success">Accept</a>
+                    <a asp-action="Reject" asp-controller="Donors" asp-route-id="@Model.Id" class="btn btn-Danger">Reject</a>
+                }
+            </div>
+            <hr />
+            <a asp-action="Notifications">Back to List</a>
+        </div>
+    </div>
+</div>

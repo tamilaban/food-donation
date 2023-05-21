@@ -1,0 +1,51 @@
+﻿@model FoodDonation.Models.Sponsors
+
+@{
+    ViewData["Title"] = "Sponsors";
+}
+
+<section class="container">
+    <h1 class="text-center">Details</h1>
+
+    <div>
+        <h4 class="text-center">Sponsors</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                Name:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+               Amount(BDT.):
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Amount)
+            </dd>
+            <dt class="col-sm-2">
+                Start Date:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.startDate)
+            </dd>
+            <dt class="col-sm-2">
+                Expire Date:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ExpireDate)
+            </dd>
+            <dt class="col-sm-2">
+                Logo:
+            </dt>
+            <dd class="col-sm-10">
+                <img src="@("~/image/"+Model.Logo)" asp-append-version="true" width="100" height="100" />
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="EditSponsor" class="btn btn-primary" asp-route-id="@Model.Id">Edit</a> |
+        <a asp-action="ListofSponsors">Back to List</a>
+    </div>
+
+</section>

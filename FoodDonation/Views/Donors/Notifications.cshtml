@@ -1,0 +1,54 @@
+﻿@model IEnumerable<FoodDonation.Models.DonorNotification>
+
+@{
+    ViewData["Title"] = "Notifications";
+}
+
+<section class="container">
+    <h1 class="text-center">Notifications</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                </th>
+                <th>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @if (item.IsRequest == true)
+                        {
+                            <p>
+                                <strong>@item.CharityName</strong> has asked for donation
+                            </p>
+                        }
+                        else if (item.IsAccepted == true)
+                        {
+                            <p>
+                                <strong>@item.CharityName</strong> has accept your request of donation
+                            </p>
+                        }
+                        else if (item.IsAccepted == false)
+                        {
+                            <p>
+                                <strong>@item.CharityName</strong> has rejected your request of donation
+                            </p>
+                        }
+                    </td>
+                    <td>
+                        @item.CreatedDate
+                    </td>
+                    <td>
+                        <a asp-action="NotificationDetails" asp-route-id="@item.Id">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</section>
